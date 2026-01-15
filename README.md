@@ -75,14 +75,14 @@ python -c "import torch; print('PyTorch:', torch.__version__)"
 
 ```
 Face_Mask_Detection/
-├── main.py                # File chính chạy detection
-├── main.ipynb             # Jupyter notebook
-├── models
-│  ├── best_v1.pt             # Model YOLOv11(v1) đã train
-│  ├── best_v2.pt             # Model YOLOv11(v2) đã train
-│  └── best_v3.pt             # Model YOLOv11(v3) đã train
-├── README.md              # File hướng dẫn này
-└──  requirements.txt       # Danh sách thư viện (nếu có)
+├── main.py                              # File chính chạy detection
+├── Currency_detection.ipynb             # Jupyter notebook
+├── models                               # Các model của dự án
+│  ├── best_v1.pt                        # Model YOLOv11(v1) đã train
+│  ├── best_v2.pt                        # Model YOLOv11(v2) đã train
+│  └── best_v3.pt                        # Model YOLOv11(v3) đã train
+├── README.md                            # File hướng dẫn này
+└──  requirements.txt                    # Danh sách thư viện (nếu có)
 ```
 
 ## Cách sử dụng
