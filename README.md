@@ -44,17 +44,14 @@ Sau khi đã kích hoạt môi trường ảo, cài đặt các thư viện:
 # Cập nhật pip
 python -m pip install --upgrade pip
 
-# Cài đặt OpenCV (xử lý ảnh và video)
-pip install opencv-python
 
-# Cài đặt Ultralytics (YOLOv8)
+# Cài đặt Ultralytics (YOLOv11)
 pip install ultralytics
 ```
 
 **Hoặc** bạn có thể tạo file `requirements.txt` với nội dung:
 
 ```txt
-opencv-python>=4.8.0
 ultralytics>=8.0.0
 ```
 

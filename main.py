@@ -4,7 +4,7 @@ from ultralytics import YOLO
 
 # --- CẤU HÌNH ---
 camera = 1  # 0: Chạy ảnh trong thư mục /data | 1: Chạy Webcam
-model_path = "best_v2.pt"
+model_path = "models/best_v3.pt"
 image_folder = "data" 
 target_width = 1280  # Độ rộng mong muốn khi hiển thị
 
@@ -37,7 +37,7 @@ def draw_ui(img, total_amount):
 
 def predict_and_show(frame, window_name):
     # 1. Dự đoán trên khung hình gốc để giữ độ chính xác
-    results = model(frame, conf=0.45, iou=0.7)
+    results = model(frame, conf=0.5, iou=0.8)
     
     # 2. Tính tổng tiền
     current_total = 0
