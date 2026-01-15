@@ -154,5 +154,5 @@ pip freeze > requirements.txt
 ## Thông tin thêm
 
 - Model được train để nhận diện các mệnh giá tiền Việt Nam: 1.000đ, 2.000đ, 5.000đ, 10.000đ, 20.000đ, 50.000đ, 100.000đ, 200.000đ, 500.000đ
-- Confidence threshold: 0.45
-- IOU threshold: 0.7
+- Confidence threshold: 0.5
+- IOU threshold: 0.8
