@@ -4,7 +4,7 @@ from ultralytics import YOLO
 
 # --- CẤU HÌNH ---
 camera = 1  # 0: Chạy ảnh trong thư mục /data | 1: Chạy Webcam
-model_path = "best_v1.pt"
+model_path = "best_v2.pt"
 image_folder = "data" 
 target_width = 1280  # Độ rộng mong muốn khi hiển thị
 
