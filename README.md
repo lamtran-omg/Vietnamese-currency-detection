@@ -82,7 +82,7 @@ Face_Mask_Detection/
 │  ├── best_v2.pt                        # Model YOLOv11(v2) đã train
 │  └── best_v3.pt                        # Model YOLOv11(v3) đã train
 ├── README.md                            # File hướng dẫn này
-└──  requirements.txt                    # Danh sách thư viện (nếu có)
+└──  requirements.txt                    # Danh sách thư viện 
 ```
 
 ## Cách sử dụng
